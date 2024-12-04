@@ -1,4 +1,5 @@
-Copy the following link et paste it in your navigator
+#User Activity
+The project can be open in [Project-traning-roadmap.sh](https://github.com/RyanColy/Project-training-roadmap.sh)
 
-Project Single Page CV :
-https://github.com/RyanColy/Project-training-roadmap.sh/tree/main/Single-Page-CV
+##How to run
+clone the project : [Single Page CV](https://github.com/RyanColy/Project-training-roadmap.sh/tree/main/Single-Page-CV)
