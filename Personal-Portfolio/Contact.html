@@ -5,11 +5,13 @@
         <meta name="keywords" content="frontend developer, portfolio, HTML, CSS, JavaScript">
         <meta property="og:title" content="Portfolio Frontend Developer">
         <title>Ryan Coly Portfolio</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <section>
+            <section class="en-tete">
                 <div>
                     <a href="Home.html"><img src="img/code.png" alt="Logo"></a>
                     <a href="Home.html">Ryan Coly</a>
@@ -27,20 +29,23 @@
 
         <main>
             <p>Describe Your Project</p>
-            <section>
+            <section class="send">
                 <form method="get" action="">
-                    <div>
-                        <div>
+                    <div class="formulaire">
+                        <div class="nom">
                             <label for="name">Name</label>
                             <input type="text" name="name" id="name">
                         </div>
-                        <div>
+                        <div class="mail">
                             <label for="mail">e-mail</label>
                             <input type="e-mail" name="mail" id="mail">
                         </div>
                     </div>
-                    <label for="describe">Describe</label>
-                    <textarea name="describing" id="describe" rows="10"></textarea>
+                    <div class="desc">
+                        <label for="describe">Describe</label>
+                        <textarea name="describing" id="describe" rows="10"></textarea>
+                    </div>
+                    <input type="submit" value="ENVOYER" class="cta">
                 </form>
             </section>
         </main>
